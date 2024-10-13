@@ -1,0 +1,15 @@
+{
+    "title": "Setting up robust a Gatsby Web Server",
+    "description": "Let's set this up",
+    "details": {
+        "intro": {
+            "text": "intro.md"
+        }
+
+    },
+
+    "backend": {
+        "imadeid": "ubuntu"
+    }
+
+}
