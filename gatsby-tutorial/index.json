@@ -5,11 +5,10 @@
         "intro": {
             "text": "intro.md"
         }
-
     },
 
     "backend": {
-        "imadeid": "ubuntu"
+        "imageid": "ubuntu"
     }
 
 }
