@@ -17,6 +17,17 @@
             {
                 "title": "Set up Linting",
                 "text": "step3/text.md"
+            },
+            {
+                "title": "Set up Testing with Jest",
+                "text": "step4/text.md"
+            },
+            {
+                "title": "Integrate Linting with Jest",
+                "text": "step5/text.md"
+            },
+            {
+                
             }
 
 
