@@ -1,4 +1,4 @@
-# Setting up linting with ESLint 
+# Set up linting with ESLint 
 
 Linting is useful to find both style and programming errors.  We'll use the *eslint-config-react-app* package
 
@@ -7,10 +7,12 @@ Linting is useful to find both style and programming errors.  We'll use the *esl
 Let's install the ESLint package
 
 ```plain
-npm install --save-dev eslint-config-react-app
+npm install --save-dev --legacy-peer-deps eslint-config-react-app
 ```{{exec}}
 
 ### Configure ESLint
+
+Create the *.eslintrc.js* file:
 
 ```plain
 vim .eslintrc.js
@@ -30,7 +32,7 @@ module.exports = {
 };
 ```
 
-### Add lint script in package.json
+### Add lint script in *package.json*
 
 To run the linter from the commandline add a script to *package.json*
 

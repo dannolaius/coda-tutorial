@@ -1,4 +1,4 @@
-# Setting up a github repo
+# Set up a github repo
 
 Start by initializing git in your repository.
 
