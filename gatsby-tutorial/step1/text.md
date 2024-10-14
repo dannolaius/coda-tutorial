@@ -69,6 +69,5 @@ Enter the directory of your new Gatsby Project
     ```plain
     cd my-gatsby-site
     ```{{exec}}
-
-
+    
 Congratulations you've setup the template of a Gatsby project!
