@@ -2,9 +2,9 @@
 
 Start by initializing git in your repository.
 
-    ```plain
+ ```plain
     git init
-    ```{{exec}}
+```{{exec}}
 
 Go to [GitHub](https://github.com) and create a new repository:
    - Navigate to your GitHub dashboard.
@@ -33,9 +33,9 @@ Because we wouldn't want you to enter credentials into KillerCoda, which you tot
 
 To avoid entering the token every time you push a new change, you can set up the remote URL to include your GitHub username and the token. This is a temporary workaround for the purpose of this tutorial—do **not** use this method in real projects as it exposes your token. Instead, use **SSH keys** in production environments.
 
-    ```plain
+```plain
     git remote set-url origin https://<your-username>:<your-token>@github.com/<your-username>/<repository-name>.git
-    ```{{exec}}
+```{{exec}}
 
 ### Push into the repository
 

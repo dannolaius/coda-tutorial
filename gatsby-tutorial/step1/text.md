@@ -66,8 +66,8 @@ To create a new Gatsby project, follow these steps:
 
 Enter the directory of your new Gatsby Project
 
-    ```plain
+```plain
     cd my-gatsby-site
-    ```{{exec}}
-    
+```{{exec}}
+
 Congratulations you've setup the template of a Gatsby project!
