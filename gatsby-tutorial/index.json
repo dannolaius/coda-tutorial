@@ -13,8 +13,12 @@
             {
                 "title": "Setting up a GitHub Repo",
                 "text": "step2/text.md"
-
+            },
+            {
+                "title": "Setting up Linting",
+                "text": "text.md"
             }
+
 
         ]
         
