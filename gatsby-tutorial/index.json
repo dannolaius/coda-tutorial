@@ -9,8 +9,13 @@
             {
                 "title": "Setup node",
                 "text": "step1/text.md"
+            },
+            {
+                "title": "Setting up a GitHub Repo",
+                "text": "step2/text.md"
+
             }
-            
+
         ]
         
     
