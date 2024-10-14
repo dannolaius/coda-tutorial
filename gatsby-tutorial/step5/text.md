@@ -2,7 +2,7 @@
 
 ### Integrate Jest with ESLint
 
-First install Jest plugin for eslint
+First install Jest plugin for ESlint
 
 ```plain
 npm i eslint-plugin-jest --save-dev --legacy-peer-deps

@@ -27,7 +27,12 @@
                 "text": "step5/text.md"
             },
             {
-                
+                "title": "Test React Components",
+                "text":  "step6/text.md"
+            }, 
+            {
+                "title": "Add CI/CD Workflow",
+                "text":"step7/text.md"
             }
 
 
