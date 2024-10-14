@@ -2,9 +2,9 @@
 
 Start by initializing git in your repository.
 
-```plain
-git init
-```{{exec}}
+    ```plain
+    git init
+    ```{{exec}}
 
 Go to [GitHub](https://github.com) and create a new repository:
    - Navigate to your GitHub dashboard.
@@ -33,9 +33,9 @@ Because we wouldn't want you to enter credentials into KillerCoda, which you tot
 
 To avoid entering the token every time you push a new change, you can set up the remote URL to include your GitHub username and the token. This is a temporary workaround for the purpose of this tutorial—do **not** use this method in real projects as it exposes your token. Instead, use **SSH keys** in production environments.
 
-```plain
-git remote set-url origin https://<your-username>:<your-token>@github.com/<your-username>/<repository-name>.git
-```{{exec}}
+    ```plain
+    git remote set-url origin https://<your-username>:<your-token>@github.com/<your-username>/<repository-name>.git
+    ```{{exec}}
 
 ### Push into the repository
 
@@ -44,20 +44,20 @@ Now that your repository is set up and your remote URL is configured with the PA
 
 1. Add all files to the staging area:
 
-```plain
-git add .
-```{{exec}}
+    ```plain
+    git add .
+    ```{{exec}}
 
 2. Commit your changes:
 
-```plain
-git commit -m "Initial commit"
-```{{exec}}
+    ```plain
+    git commit -m "Initial commit"
+    ```{{exec}}
 
 3. Push your changes to GitHub:
 
-```plain
-git push --set-upstream origin main
-```{{exec}}
+    ```plain
+    git push --set-upstream origin main
+    ```{{exec}}
 
 If you followed the steps correctly, your code will now be pushed to the GitHub repository. Congratulations!
