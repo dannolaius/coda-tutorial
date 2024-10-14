@@ -4,7 +4,16 @@
     "details": {
         "intro": {
             "text": "intro.md"
-        }
+        },
+        "steps": [
+            {
+                "title": "Setup node",
+                "text": "step1/text.md"
+            }
+            
+        ]
+        
+    
     },
 
     "backend": {
