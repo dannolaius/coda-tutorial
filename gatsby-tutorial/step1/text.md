@@ -4,7 +4,7 @@ In this section, we will set up a new Gatsby project and configure it with Tailw
 
 ### Prerequisites
 
-Ensure you have `Node.js` installed. If not, follow the steps below to install Node.js using NVM.
+Let's start by getting **Node.js** installed. 
 
 1. Install NVM (Node Version Manager):
 
@@ -30,7 +30,7 @@ nvm install --lts
 node -v
 ```{{exec}}
 
-Additionally, configure Git if you haven’t already:
+Additionally, let's configure git that should already be installed on the machine:
 
 1. Set your Git email:
 
@@ -55,11 +55,20 @@ npm init gatsby
 ```{{exec}}
 
 2. Follow the prompts:
-   - Press `Enter` or type `Y` to install the necessary package.
-   - Press `Enter` for the default project name.
-   - Press `Enter` for the default folder name.
-   - Choose **JavaScript** over TypeScript.
-   - Choose **No CMS**.
-   - Choose **Tailwind** as the styling system.
-   - Skip all optional features by pressing `Enter`.
-   - Confirm to start the installation.
+   - Press Enter or type Y to install the necessary package.
+   - Press Enter for the default project name.
+   - Press Enter for the default folder name.
+   - Press Enter to choose Javascript over Typescript
+   - Press Enter to choose No CMS
+   - Press Enter to choose No Styling System
+   - Skip all optional features by pressing Enter on the done button.
+   - Confirm the installation by pressing Enter or typing Y
+
+Enter the directory of your new Gatsby Project
+
+```plain
+cd my-gatsby-site
+```{{exec}}
+
+
+Congratulations you've setup the template of a Gatsby project!
