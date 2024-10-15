@@ -96,6 +96,8 @@ jobs:
 
 The workflow runs the linting, and tests and prevents deployment if there are any big errors.
 
+![CI/CD Workflow](workflow.png)
+
 Add the line to the *gatsby-config-.js* file inside *module.exports*.
 
 ```js
