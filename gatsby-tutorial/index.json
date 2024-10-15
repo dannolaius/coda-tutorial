@@ -33,6 +33,13 @@
             {
                 "title": "Add CI/CD Workflow",
                 "text":"step7/text.md"
+            },
+
+            {
+                "title": "Final configurations for Github Pages",
+                "text":"step8/text.md"
+
+
             }
 
 

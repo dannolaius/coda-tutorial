@@ -1,13 +1,13 @@
 # Set up linting with ESLint 
 
-Linting is useful to find both style and programming errors.  We'll use the *eslint-config-react-app* package
+In this step we'll set up linting. Linting is a type of static code analysis that can be useful for identifying programming errors or stylistic errors. 
 
 ### Install ESLint 
 
 Let's install the ESLint package
 
 ```plain
-npm install --save-dev --legacy-peer-deps eslint-config-react-app
+npm install --save-dev --legacy-peer-deps eslint-config-react-app eslint@8.57.1
 ```{{exec}}
 
 ### Configure ESLint
@@ -25,12 +25,12 @@ module.exports = {
   globals: {
     __PATH_PREFIX__: true,
   },
-  extends: `react-app`,
+  extends: 'react-app',
   rules: {
     'prefer-const': 'error',
   },
 };
-```
+```{{exec}}
 
 ### Add lint script in *package.json*
 
@@ -44,14 +44,16 @@ vim package.json
 
 Find the *"scripts"* section and add the following line:
 
-```json
-"lint": "eslint src/**/*.{js,jsx,ts,tsx}",
-```{{exec}}
+```js
+"lint": "eslint src/**/*.{js,jsx,ts,tsx}"
+```
 
-You might've to add a comma to the line above as well
+Ensure that all scripts, except the last one, end with a comma!
 
 Now ESLint can be run with the command
 
 ```plain
 npm run lint
 ```{{exec}}
+
+You've now added lint to your project congratulations!

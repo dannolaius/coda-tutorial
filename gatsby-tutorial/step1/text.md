@@ -1,6 +1,6 @@
 # Setting Up a Gatsby Project
 
-In this section, we will set up a new Gatsby project and configure it with Tailwind for styling.
+In this section, we will set up a new Gatsby project.
 
 ### Prerequisites
 
@@ -35,13 +35,13 @@ Additionally, let's configure git that should already be installed on the machin
 1. Set your Git email:
 
     ```plain
-    git config --global user.email "you@example.com"
+    git config --global user.email "gatsby@tutorial.com"
     ```{{exec}}
 
 2. Set your Git username:
 
     ```plain
-    git config --global user.name "Your Name"
+    git config --global user.name "Gatsby Gat"
     ```{{exec}}
 
 ### Initializing a Gatsby Project
@@ -55,19 +55,23 @@ To create a new Gatsby project, follow these steps:
     ```{{exec}}
 
 2. Follow the prompts:
-   - Press Enter or type Y to install the necessary package.
+   - Press Enter (or type y) to install the necessary package.
    - Press Enter for the default project name.
    - Press Enter for the default folder name.
    - Press Enter to choose Javascript over Typescript
    - Press Enter to choose No CMS
    - Press Enter to choose No Styling System
    - Skip all optional features by pressing Enter on the done button.
-   - Confirm the installation by pressing Enter or typing Y
+   - Confirm the installation by pressing Enter (or typing y)
 
-Enter the directory of your new Gatsby Project
+Installation might take a while. You can look at the next page while you're waiting.
+
+
+Once installation is finished, enter the directory of your new Gatsby Project
+
 
 ```plain
-    cd my-gatsby-site
+cd my-gatsby-site
 ```{{exec}}
 
 Congratulations you've setup the template of a Gatsby project!

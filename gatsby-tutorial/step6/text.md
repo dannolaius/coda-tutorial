@@ -13,9 +13,9 @@ vim setup-test-env.js
 ```{{exec}}
 
 Add this code to the file
-```javascript
+```js
 import '@testing-library/jest-dom';
-```
+```{{exec}}
 
 ### Integrate with Jest
 
@@ -29,7 +29,7 @@ vim jest.config.js
 Add these lines:
 
 ```javascript
-testEnvironment: `jsdom`,
+testEnvironment: 'jsdom',
 setupFilesAfterEnv: ['<rootDir>/setup-test-env.js'],
 ```
 
@@ -71,7 +71,8 @@ const Counter = () => {
 };
 
 export default Counter;
-```
+```{{exec}}
+
 Thereafter change *index.js* (if not empty, delete everything before copy pasting the code)
 
 ```plain
@@ -96,7 +97,7 @@ const IndexPage = () => {
 export default IndexPage;
 
 export const Head = () => <title>Home Page</title>;
-```
+```{{exec}}
 
 ### Create a test for the component
 
@@ -105,8 +106,10 @@ Create directory to store tests:
 ```plain
 mkdir src/components/__tests__
 ```{{exec}}
+
+
 ```plain
-mkdir src/components/__tests__
+vim src/components/__tests__/Counter.test.js
 ```{{exec}}
 
 Add the following code for a test:
@@ -131,4 +134,4 @@ describe('counter', () => {
     expect(counter).toHaveTextContent('Current count: 1');
   });
 });
-```
+```{{exec}}

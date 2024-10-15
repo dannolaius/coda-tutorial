@@ -22,14 +22,10 @@ extends: 'react-app',
 with: 
 
 ```js
-extends: [`react-app`, 'plugin:jest/all'],
+extends: ['react-app', 'plugin:jest/all'],
 ```
 
-Avoid needing to use assertions by adding this rule to *.eslintrc.js* because not all tests need assertions, and it can be quite a nuisance to enforce this lint rule
-
-```plain
-vim .eslintrc.js
-```{{exec}}
+You should also add the following as a rule to avoid the nuisance of needing assertions for every test.
 
 ```js
 'jest/prefer-expect-assertions': 'off',

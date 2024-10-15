@@ -38,7 +38,9 @@ module.exports = {
     url: 'http://localhost/',
   },
   setupFiles: ['<rootDir>/loadershim.js'],
-};```
+};
+
+```{{exec}}
 
 Create a preprocessor file so that jest can handle Gatsby's syntax
 
@@ -51,7 +53,7 @@ Add the following content:
 ```js
 const babelOptions = {
   presets: ['babel-preset-gatsby'],
-};
+};{{exec}}
 
 module.exports = require('babel-jest').default.createTransformer(babelOptions);
 ```
@@ -72,17 +74,17 @@ global.loader = {
 
 ### Add script in *package.json*
 
-Open `package.json`:
+Open *package.json*:
 
 ```plain
 vim package.json
 ```{{exec}}
 
-In the `"scripts"` section, add the following line:
+In the *"scripts"* section, add the following line:
 
-```json
+```js
 "test": "jest"
-```{{exec}}
+```
 
 ### Create example Test File
 
@@ -106,11 +108,11 @@ describe('example', () => {
     expect(true).toBe(true);
   });
 });
-```
+```{{exec}}
 Now we can run tests using 
 
 ```plain
-npm run lint
+npm run test
 ```{{exec}}
 
 
