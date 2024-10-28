@@ -1,6 +1,12 @@
-# Setting Up a Gatsby Project
+# An Introduction to Gatsby and basic initialization
 
-In this section, we will set up a new Gatsby project.
+In this section we'll explain what Gatsby is and how you initialize a Gatsby project. 
+
+### What is Gatsby?
+
+Gatsby is a **static site generator**. Meaning it takes source files containing content and files defining the template to create static HTML files that can be served during build. This makes loading faster than for websites that does this creating of HTML files upon user requests.
+
+What makes Gatsby different than so many other 
 
 ### Prerequisites
 
