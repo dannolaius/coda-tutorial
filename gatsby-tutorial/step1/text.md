@@ -73,10 +73,12 @@ Once installation is finished, enter the directory of your new Gatsby Project
 cd my-gatsby-site
 ```{{exec}}
 
+If everything is correct this should be the structure (excluding node_modules). 
+
 ![structure](./structure.png)
 
 
-If everything is correct this should be the structure (excluding node_modules). Creating another file in the *src/pages* directory creates a new page on your site based on the name of the file.
+Creating another file in the *src/pages* directory creates a new page on your site based on the name of the file.
 
 
 Congratulations you've set up the template of a Gatsby project!

@@ -37,7 +37,7 @@ And adding a remote origin using the link to the repo you just created
 
 ```plain
 git remote add origin https://github.com/<your-user-name>/<your-repository-name>.git
-```{{terminal}}
+```
 
 Now we'll add commit and push the changes
 
