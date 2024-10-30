@@ -1,6 +1,6 @@
 # An Introduction to Gatsby and basic initialization
 
-![gatsby-logo](./gatsby-logo.jpeg) \
+![gatsby-logo](./gatsby-logo.jpeg) 
 
  In this section we'll explain what Gatsby is and how you initialize a Gatsby project. 
 
@@ -74,6 +74,7 @@ cd my-gatsby-site
 ```{{exec}}
 
 ![structure](./structure.png)
+
 
 If everything is correct this should be the structure (excluding node_modules). Creating another file in the *src/pages* directory creates a new page on your site based on the name of the file.
 
