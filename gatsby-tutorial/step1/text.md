@@ -1,12 +1,17 @@
 # An Introduction to Gatsby and basic initialization
 
+![gatsby-logo](./gatsby-logo.jpeg)
 In this section we'll explain what Gatsby is and how you initialize a Gatsby project. 
 
 ### What is Gatsby?
 
-Gatsby is a **static site generator**. Meaning it takes source files containing content and files defining the template to create static HTML files that can be served during build. This makes loading faster than for websites that does this creating of HTML files upon user requests.
+Gatsby is a **static site generator**. Meaning it takes the source files containing both the content and files defining the template to create static HTML files during build. This makes loading faster than for websites that does this creating of HTML files dynamically upon user requests.
 
-What makes Gatsby different than so many other 
+What makes Gatsby different than so many other static site generators you can write the content using MDX 
+
+Static site generators use Markdown files or other text files to store the content. Gatsby expands on this by using MDX which allows you to create UI elements and templates using React and add them to your Markdown files.
+
+Gatsby is also known for using GraphQL for loading data into the react components.
 
 ### Prerequisites
 
@@ -57,27 +62,19 @@ To create a new Gatsby project, follow these steps:
 1. Run the following command to initialize a new Gatsby project:
 
     ```plain
-    npm init gatsby
+    npm init gatsby -- -y my-gatsby-site
     ```{{exec}}
-
-2. Follow the prompts:
-   - Press Enter (or type y) to install the necessary package.
-   - Press Enter for the default project name.
-   - Press Enter for the default folder name.
-   - Press Enter to choose Javascript over Typescript
-   - Press Enter to choose No CMS
-   - Press Enter to choose No Styling System
-   - Skip all optional features by pressing Enter on the done button.
-   - Confirm the installation by pressing Enter (or typing y)
-
-Installation might take a while. You can look at the next page while you're waiting.
 
 
 Once installation is finished, enter the directory of your new Gatsby Project
 
-
 ```plain
 cd my-gatsby-site
 ```{{exec}}
+
+![structure](./structure.png)
+
+If everything is correct this should be the structure (excluding node_modules). Creating another file in the *src/pages* directory creates a new page on your site based on the name of the file.
+
 
 Congratulations you've setup the template of a Gatsby project!

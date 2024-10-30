@@ -4,4 +4,4 @@ After running the CI/CD workflow we can see that it created the branch gh-pages.
 
 Now Make your own changes and watch the CI/CD workflow at work. Hope you've learnt something
 
-![gatsby](./gatsby.png)
+![great-gatsby](./great-gatsby.png)
