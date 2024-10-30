@@ -1,8 +1,8 @@
 # An Introduction to Gatsby and basic initialization
 
-![gatsby-logo](./gatsby-logo.jpeg)
+![gatsby-logo](./gatsby-logo.jpeg) \
 
-\In this section we'll explain what Gatsby is and how you initialize a Gatsby project. 
+ In this section we'll explain what Gatsby is and how you initialize a Gatsby project. 
 
 ### What is Gatsby?
 
