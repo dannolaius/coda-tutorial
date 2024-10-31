@@ -88,7 +88,7 @@ In the *"scripts"* section, add the following line:
 
 ### Create example Test File
 
-Now, let’s create a template of a test file First, create a `tests` directory inside the `src` folder:
+Now, let’s create a template of a test file First, create a *tests* directory inside the *src* folder:
 
 ```plain
 mkdir src/tests
@@ -109,6 +109,7 @@ describe('example', () => {
   });
 });
 ```{{exec}}
+
 Now we can run tests using 
 
 ```plain

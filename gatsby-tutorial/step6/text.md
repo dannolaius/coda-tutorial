@@ -19,7 +19,7 @@ import '@testing-library/jest-dom';
 
 ### Integrate with Jest
 
-we'll make Jest run the setup file by updating the Jest configuration file
+We'll make Jest run the setup file by updating the Jest configuration file
 
 
 ```plain
@@ -35,7 +35,7 @@ setupFilesAfterEnv: ['<rootDir>/setup-test-env.js'],
 
 ### Create some react components:
 
-Let's create some template react components to run tests on 
+Let's create a react component just to show the principles of how you create tests for certain components.
 
 ```plain 
 mkdir src/components
@@ -73,13 +73,16 @@ const Counter = () => {
 export default Counter;
 ```{{exec}}
 
-Thereafter change *index.js* (if not empty, delete everything before copy pasting the code)
+The code describes a Counter with increment and decrement buttons. The details of this code doesn't really matter we're just adding any component that we can test.
+
+
+Thereafter we'll add this component to *index.js* which will display it on your webites root.
 
 ```plain
 vim src/pages/index.js 
 ```{{exec}}
 
-Add following code:
+Add following code (you can remove the code that was there previously):
 
 ```js
 import * as React from 'react';
@@ -135,3 +138,8 @@ describe('counter', () => {
   });
 });
 ```{{exec}}
+
+This code will test wether the component actually increments with a user click by rendering the Counter using the react testing-library functions and checking that it behaves correctly using jest functions.
+
+Congratulations you've now added a component to your website and a test for that component.
+

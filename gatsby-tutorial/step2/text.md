@@ -1,7 +1,7 @@
 # Set up a git and your GitHub repo
 
-
 (Before starting ensure that you're inside your gatsby directory)
+
 Go to [GitHub](https://github.com) and create a new repository:
    - Navigate to your GitHub dashboard.
    - Click the **New** button next to **Repositories**.
@@ -67,7 +67,7 @@ To avoid entering the token every time you push a new change, you can set up the
 
 ```plain
 git remote set-url origin https://<your-username>:<your-token>@github.com/<your-username>/<repository-name>.git
-```{{terminal}}
+```
 
 
 If you followed the steps correctly, your code will now be pushed to the GitHub repository. Congratulations!

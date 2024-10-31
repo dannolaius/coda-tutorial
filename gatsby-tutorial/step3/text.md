@@ -46,7 +46,7 @@ Find the *"scripts"* section and add the following line:
 
 ```js
 "lint": "eslint src/**/*.{js,jsx,ts,tsx}"
-```
+```{{exec}}
 
 Ensure that all scripts, except the last one, end with a comma!
 
