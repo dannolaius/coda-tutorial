@@ -102,6 +102,11 @@ export default IndexPage;
 export const Head = () => <title>Home Page</title>;
 ```{{exec}}
 
+
+![Counter](./counter.png)
+
+Your development environment will now look like this.
+
 ### Create a test for the component
 
 Create directory to store tests:
