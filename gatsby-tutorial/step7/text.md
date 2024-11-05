@@ -96,13 +96,20 @@ jobs:
 
 The workflow runs the linting, and tests and prevents deployment if there are any big errors.
 
+If there are no big errors we'll run the gatsby building process, taking all the react code and templates to create the static HTML files it can send to the end user and store them in the  in the public directory. In deployment we deploy the public directory.
+
+
 ![CI/CD Workflow](./workflow.png)
 
 Add the line to the *gatsby-config-.js* file inside *module.exports*.
 
+
 ```js
 pathPrefix: '/<your-repo-name>'
 ```
+
+This ensures the site still works even if it will be hosted not on the root of the website which it won't be by default when we deploy using github pages. 
+
 
  
 ### Locally running tests from the workflow
@@ -142,7 +149,7 @@ describe('counter', () => {
 });
 ```
 
-There is still a warning but that won't stop us from deploying
+There is still a warning, but that won't stop us from deploying
 
 We'll also do 
 
