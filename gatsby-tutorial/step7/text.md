@@ -96,7 +96,7 @@ jobs:
 
 The workflow runs the linting, and tests and prevents deployment if there are any big errors.
 
-If there are no big errors we'll run the gatsby building process, taking all the react code and templates to create the static HTML files it can send to the end user and store them in the  in the public directory. In deployment we deploy the public directory.
+If there are no big errors we'll run the gatsby building process, taking all the react code and templates to create the static HTML, CSS and javascript files it can send to the end user, and store them in the  in the public directory. In deployment we then upload the contents of this public directory.
 
 
 ![CI/CD Workflow](./workflow.png)

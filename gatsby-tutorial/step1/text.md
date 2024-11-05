@@ -6,13 +6,13 @@
 
 ### What is Gatsby?
 
-Gatsby is a **static site generator**. Meaning it takes the source files containing both the content and files defining the template to create static HTML files during build. This makes loading faster than for websites that does this creating of HTML files dynamically upon user requests.
-
-What makes Gatsby different than so many other static site generators you can write the content using MDX 
+Gatsby is a **static site generator**. Meaning it takes the source files containing both the content and files defining the template to create static HTML files during build. This makes loading faster than for websites that does this creating of HTML, CSS and javascript files dynamically upon user requests.
 
 Static site generators use Markdown files or other text files to store the content. Gatsby expands on this by using MDX which allows you to create UI elements and templates using React and add them to your Markdown files.
 
 Gatsby is also known for using GraphQL for loading data into the react components.
+
+![Gatsby build](./gatsby-build.png)
 
 ### Prerequisites
 
