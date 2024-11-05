@@ -19,7 +19,7 @@ Because we wouldn't want you to enter unscoped credentials into KillerCoda, whic
 4. Enter a **token name** and choose an **expiration date** (this limits how long the token can access the repository).
 5. Under **Repository access**:
    - Select **Only select repositories**.
-   - Choose **<repository-name>** (this is the new repository you just created for this tutorial).
+   - Choose **&lt;repository-name&gt;** (this is the new repository you just created for this tutorial).
 6. Under **Repository permissions**, allow:
    - **Read** and **write** permissions for **all repository permissions**. (you need to do it one permission at a time, sorry)
    - **No access** for all **account permissions** (since this PAT will only be used for this repository).
